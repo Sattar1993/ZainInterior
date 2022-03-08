@@ -1,0 +1,782 @@
+@font-face {
+    font-family: Cosmetic-Thin;
+   
+    src: url('./foonts/Cosmetic-thin.ttf');
+  }
+
+  @font-face {
+    font-family: Avenir;
+    src: url('./foonts/AvenirLTStd-Book.otf');
+  }
+  @font-face {
+    font-family: AvenirRoman;
+    src: url('./foonts/AvenirLTStd-Roman.otf');
+  }
+  
+  @font-face {
+    font-family: ebrima;
+    src: url('./foonts/ebrima.ttf');
+  }
+  @font-face {
+    font-family: ebrimaBold;
+    src: url('./foonts/ebrima-bold.ttf');
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .about_blog_working{
+    text-align: left;
+    margin-top: 100px;
+  }
+  .about_blog_working .blog_content_date p{
+    font-size: 16px;
+    color: rgb(61, 58, 58);
+  }
+  .about_blog_working .blog_content_heading h1{
+    font-size: 30px;
+    color: black !important;
+    font-family: ebrimaBold !important;
+  }
+  .about_blog_working .blog_content_para{
+    font-size: 16px;
+    color: black !important;
+    text-align: justify;
+    font-family: AvenirRoman !important; 
+  }
+  .about_blog_working .blog_content_btn a{
+    font-size: 16px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .content_gallery {
+    margin-top: 120px !important;
+   }
+  .card{
+    border:none !important
+  }
+  .card .blog_content_date{
+    font-size: 16px;
+    color: rgb(61, 58, 58);
+  }
+  .content_gallery .content_gallery_title{
+    color: black !important;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .content_gallery .card_text{
+    font-size: 16px;
+    padding-top: 10px;
+    color: black !important;
+    text-align: justify;
+  }
+  .content_gallery .card .blog_content_btn a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black !important;
+  }
+  .content_gallery .row .col-lg-4{
+    gap: 12px;
+  }
+  
+  .content_gallery .gallery_sec_2{
+   margin-top: 120px !important;
+  }
+  .back_btn .btn{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container-fluid .blog_detail_heading h1{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .container-fluid .detail_p p{
+    text-align: justify;
+    font-size: 16px;
+  }
+  .blog_detail  .blog_content_date p{
+    font-size: 13px;
+    color: rgb(61, 58, 58);
+  }
+  .blog_detail .content_gallery_title{
+    color: black !important;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .blog_detail .card_text{
+    font-size: 14px;
+    color: black !important;
+    text-align: center;
+  }
+  .blog_detail .blog_content_btn a{
+    font-size: 13px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .about_us_content .aboutus_blog_working h1{
+    font-size: 40px;
+    color: #473F92;
+    text-align: left;
+    font-weight: 700;
+  }
+  .aboutus_blog_working .aboutus_blog_content_para {
+    font-size: 16px;
+    color: black;
+    text-align: justify !important;
+    font-family: AvenirRoman;
+  }
+  .aboutus_blog_working{
+    margin-top: 190px;
+  }
+  .aboutus_img{
+    width: 80%;
+    object-fit: cover;
+  }
+  
+  .working_process_section .process_img1{
+    width: 262px !important;
+  height: 386px !important;
+  }
+  .working_process_section .process_img2{
+    width: 262px !important;
+  height: 262px !important;
+  }
+  .working_process_section .process_img3{
+    width: 262px !important;
+    height: 262px !important;
+  }
+  .working_process_section .process_img4{
+    width: 262px !important;
+  height: 386px !important;
+  }
+  .process_ul_points h1{
+    color: #473F92;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  li::marker 
+  {
+      font-size: 1.3rem;
+      font-weight: bolder;
+  }
+  .working_process_points ul li {
+  font-size: 16px;
+  text-align: justify;
+  font-family: AvenirRoman;
+  }
+  .contact_form Form .email_text {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 1px solid rgba(139, 139, 139, 0.514);
+    border-radius: -1px !important;
+   border-radius: none;
+   box-shadow: inset 0 -1px 0 #ddd;
+  }
+  .contact_form Form .email_text:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+    outline: none;
+    border-radius: -1px;
+  }
+  .contact_form .email_heading{
+    text-align: left !important;
+    color: #383333dc;;
+    font-family: AvenirRoman;
+  }
+  .contact_form  Button{
+    background-color: #473F92 !important;
+    color: white !important;
+  }
+  .contact_form{
+    justify-content: start;
+    text-align: left;
+    font-family: ebrimaBold;
+    font-weight: 600;
+  }
+  .contact_form .text-muted {
+    color: black !important ;
+    font-size: 17px;
+    font-family: AvenirRoman;
+    text-align: left;
+  }
+  .contact_form .textarea{
+    border-radius: none !important;
+    border: 1px solid  rgba(139, 139, 139, 0.514);
+  
+  }
+  .contact_form .textarea:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+    border: 1px solid  rgb(139, 139, 139);
+    outline: none;
+    border-radius: -1px;
+  }
+  .Contact_form h1{
+    color: #473F92;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .contact_address {
+    margin-top: 140px;
+    margin-left: 80px;
+    font-family: AvenirRoman;
+  }
+  .contact_address .location p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: AvenirRoman;
+  }
+  .container .see_morebtn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: AvenirRoman;
+  font-weight: 600;
+  color: black;
+  }
+  .Segoe{
+    font-family: Segoe;
+  
+  }
+  
+  .ebrimaBold {
+    font-family: ebrimaBold;
+  }
+  .ebrima {
+    font-family: ebrima;
+  }
+  .Avenir{
+   font-family: Avenir; 
+   font-size: 16px;
+  }
+  .col_style{
+    height: 400px;
+     
+  }
+  .inner_div{
+    margin-left: 110px;
+  }
+  .about_read_more a{
+    text-decoration: none !important;
+    text-align: left;
+    color: white;
+    background-color:#473F92;
+  
+  }
+  .header_img{
+    height: "30%";
+    width: "40%";
+  }
+  
+  .hero_header {
+      background-image: url('./assets/interior-design-has-sofa-empty-dark-wall-background-3d-rendering.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 600px;
+      margin-bottom: 10%;
+    }
+    
+    .header_heading h1{
+      color: white;
+      letter-spacing: 3.5px;
+      text-align: left;
+      font-size: 66px !important;
+  
+      margin-top: 10%;
+       
+    }
+    .read_more_btn .Avenir {
+      color: white;
+    }
+    .read_more_btn .tele_svg {
+      margin-left: 23px;
+    }
+    .read_more_btn  {
+      margin-left: 50px;
+    }
+  
+    .read_more_btn a {
+      text-decoration: none;
+      border: 1px solid white;
+      width: 200px !important;
+      margin-left: -12px;
+    }
+    .slider_img {
+       height: 30;
+       width: 50;
+      padding-left: 10px;
+      padding-right: 10px;
+  
+    }
+  
+    .Slider_container {
+      height: "10%";
+      width:" 10%";
+    }
+  
+    .swiper-slide {
+      text-align: right;
+      font-size: 18px;
+      background: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: left;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: flex-start;
+      align-items: flex-start;
+    }
+    .container_footer{
+      background-color: black;
+    
+    }
+    .logo_bottom_p{
+      color: white;
+      font-size: 12px;
+      font-family:  Segoe;
+    }
+    .text_footer {
+      color:white;
+    font-weight: 600;
+      font-family:  Segoe;
+    }
+    .footer_paddings{
+      padding-left: 3%;
+      padding-top: 2%;
+    
+    }   
+  .contant_style{
+     margin-top: 10px;
+    font-size: 12px;
+  }
+  .about_container{ 
+    border-left: 14px solid indigo;
+    margin-top:1%;
+    margin-bottom: 10%;
+  }
+  
+  .footer_menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 32px;
+  }
+  .footer_menu ul li {
+    margin-top: 12px !important;
+  }
+  .footer_menu ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family:  Segoe;
+    font-size: 14px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .inner_div p{
+    text-align:start ;
+  }
+  .about_read_more a:hover{
+    text-decoration: none !important;
+    color: white;
+  }
+  .about_read_more{
+    text-align:start;
+  }
+  .p2row .p2img{
+    width: 513px;
+  height: 513px;
+  object-fit: cover;
+  }
+  .bespoke_kitchen_header {
+    max-width: 832px !important;
+    margin: auto !important;
+  }
+  .bespoke_kitchen_images{
+    margin-top: 100px;
+  }
+  .top_logo img{
+  width: 80px;
+  margin-top: 5px;
+  }
+  @media (max-width:767px) {
+    .header_heading h1 {
+    font-size: 24px !important;
+    text-align: center;
+    margin-top: 51%;
+  }
+  .aboutus_blog_working{
+    margin-top: 145px;
+  }
+  .bespoke_kitchen_images {
+    margin-top: 49px;
+  }
+  .read_more_btn {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+   
+  .read_more_btn a{
+    width: 200px !important;
+    padding:50px
+  }
+  .cellno{
+    margin-top: 30px;
+  }
+  .overlay_div{
+    background: #695e878a;
+    height: 90vh;
+    padding: 1px;
+  }
+  .about_container{
+    border-left: none;
+  }
+  .inner_div {
+    margin-left: 0px;
+  }
+  .inner_div h1{
+    justify-content: center;
+    font-size: 24px;
+  }
+  .inner_div p{
+    text-align:justify ;
+    padding: 12px;
+    font-size: 12px;
+  }
+  .about_read_more{
+    text-align:center;
+  }
+  .footer_menu ul {
+    margin-top: 10px;
+  }
+  .contant_style{
+    margin-top: 10px;
+   font-size: 11px !important;
+  }
+  .p2row .p2img{
+    padding: 0px 12px 12px 0px !important;
+  }
+  .p2row .p2img{
+    width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding-left: 0px !important;
+  padding-right: 10px !important;
+  text-align: center !important;
+  
+  }
+  .bespoke_kitchen_images{
+    padding-left: 4% !important;
+    padding-right: 7% !important;
+  
+  }
+  .bespoke_kitchen_header p{
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+  }
+  .ebrimaBold{
+    font-size: 24px;
+  }
+  .working_process_section img{
+    display: none;
+  }
+  .blog_heading h1{
+  
+  }
+  }
+  
+  
+  @media (max-width:767px) {
+    .aboutus_img{
+      width: 100%;
+      object-fit: cover;
+    }
+    .aboutus_blog_working .aboutus_blog_content_para {
+      font-size: 12px;
+    }
+    .working_process_section{
+      margin: -100px 0px 0px 0px !important;
+      padding: 0px !important;
+    }
+    .working_process_section .row .d-flex {
+      display: block !important;
+    }
+    .process_ul_points h1{
+      width: 100%;
+      text-align: center;
+      margin: 0px !important;
+      /* padding-top: -100px; */
+    }
+    .contact_address {
+      margin-top: 40px;
+    }
+    .container_footer{
+      margin-top: 60px;
+    }
+    .contact_address .location .loc_icon {
+      width: 10px;
+    }
+    .contact_address .location .loc_icon  svg{
+      width: 14px !important;
+    }
+    .contact_address .location p{
+      font-size: 12px;
+    }
+    .text_footer {
+      font-size: 14px;
+    }
+    .footer_menu ul li a {
+      font-size: 12px !important;
+  }
+  .working_process_points ul li{
+    font-size: 12px;
+  }
+  .process_ul_points h1{
+    font-size: 24px;
+  }
+  .Contact_form h1{
+    font-size: 24px;
+  }
+  .contact_form .text-muted{
+  font-size: 14px;
+  }
+  .contact_form .email_heading{
+    font-size: 12px;
+  }
+  .About_sec{
+   margin-top: -130px !important;
+  }
+  .about_us_content .aboutus_blog_working h1{
+    font-size: 24px;
+    text-align: center;
+  }
+  .footer_paddings .log0_text svg {
+    margin-bottom: 20px;
+  }
+  .footer_paddings .log0_text{
+    margin-top: 30px;
+  }
+  .bespoke_kitchen_header h1{
+    font-size: 24px;
+  }
+  .bespoke_kitchen_header p{
+    font-size: 12px;
+  }
+  .about_us_content{
+    max-width: 400px !important;
+    margin: auto;
+  }
+  .contact_address {
+    margin-top: 30px;
+    margin-left: 29px;
+    font-family: AvenirRoman;
+  }
+  }
+  
+  
+  #menu a {
+      text-decoration: none !important;
+      color: #232323;
+      transition: color 0.3s ease;
+  }
+  
+  #menu a:hover {
+      color: #2ecc71;
+  }
+  
+  #menuToggle {
+      display: block;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+  }
+  
+  #menuToggle input {
+      display: block;
+      width: 40px;
+      height: 32px;
+      position: absolute;
+      top: -7px;
+      left: -5px;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 2;
+      -webkit-touch-callout: none;
+  }
+  
+  #menuToggle span {
+      display: block;
+      width: 33px;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+      background: #cdcdcd;
+      border-radius: 3px;
+      z-index: 1;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child {
+      transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2) {
+      transform-origin: 0% 100%;
+  }
+  
+  #menuToggle input:checked~span {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+      background: #232323;
+  }
+  
+  #menuToggle input:checked~span:nth-last-child(3) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  #menuToggle input:checked~span:nth-last-child(2) {
+      opacity: 1;
+      transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  #menu {
+      position: absolute;
+      width: 300px;
+      margin: -100px 0 0 0;
+      padding: 50px;
+      padding-top: 125px;
+      right: -100px;
+      background: #ededed;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;
+      transform-origin: 0% 0%;
+      transform: translate(100%, 0);
+  
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+  
+  #menu li {
+      padding: 10px 0;
+      font-size: 22px;
+  }
+  
+  #menuToggle input:checked~ul {
+      transform: scale(1.0, 1.0);
+      opacity: 1;
+  }
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }

@@ -1,4 +1,5 @@
 <!doctype html>
+@extends('layout')
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
@@ -8,6 +9,9 @@
         <link href="{{mix('css/app.css')}}" rel="stylesheet" type="text/css">
     </head>
     <body>
+	@section('content')
+<div>Some content here</div>
+@endsection
         <div id="header"></div>
 		<div id="Containt2ndpage"></div>
 		<div id="Footer"></div>
@@ -16,3 +20,5 @@
         <script src="{{mix('js/app.js')}}" ></script>
     </body>
 </html>
+
+

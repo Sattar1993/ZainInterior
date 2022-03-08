@@ -42,16 +42,7 @@ import ReactDOM from 'react-dom';
       </div>
        
          </div>
-         {/* <div className="collapse justify-content-end " id="navbarToggleExternalContent">
-        <div className="bg-dark p-4">
-          <h5 className="text-white h4 ">Collapsed content</h5>
-          <span className="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-      </div> */}
-      <div className="container">
-      
-           
-        </div>
+ 
       </div>    
   );
 }

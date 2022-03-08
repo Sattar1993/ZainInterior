@@ -781,10 +781,7 @@
     align-items: center;
   }
 
-@font-face {
-  font-family: Segoe;
-  src: url('./foonts/SEGOEUI.TTF');
-}
+
 
 @font-face {
   font-family: Avenir;

@@ -8,12 +8,13 @@ import ReactDOM from 'react-dom';
  import logoimg from './assets/Group 4055.png';
 
  function App() {
+     console.log("======== Appp component =======")
   return (
 
       <div className="container-fluid position-relative" >
       <div className="row mt-1 justify-content-start  ">
       <div className="col d-flex justify-content-start" style={{paddingLeft:"5%"}}>
-     
+
       <div className='top_logo' >
       <a href=''> <img src= {logoimg} alt=''  className=''/></a>
       </div>
@@ -40,10 +41,10 @@ import ReactDOM from 'react-dom';
           </div>
 	      </nav>
       </div>
-       
+
          </div>
- 
-      </div>    
+
+      </div>
   );
 }
 

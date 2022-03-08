@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom';
  import logoimg from './assets/Group 4055.png';
 
  function App() {
-     console.log("======== Appp component =======")
+     console.log("======== Appp component ======")
   return (
 
       <div className="container-fluid position-relative" >

@@ -10,21 +10,21 @@ import { Container } from 'react-bootstrap';
   
     <Container fluid className=" pt-lg-4 px-lg-5  container_footer">
     <div className="row mx-3 footer_paddings" >
-      <div class="col-lg-3 log0_text">
+      <div className="col-lg-3 log0_text">
       <svg className='  d-flex mb-lg-4' xmlns="http://www.w3.org/2000/svg" width="112" height="73.293" viewBox="0 0 112 73.293">
   <g id="Group_4056" data-name="Group 4056" transform="translate(-42.4 -50)">
-    <text id="ZAIN" transform="translate(43.4 99)" fill="#fff" stroke="#fff" stroke-width="1" font-size="48" font-family="Cosmetic-Thin, Cosmetic" font-weight="200"><tspan x="0" y="0">ZAIN</tspan></text>
-    <text id="INTERIORS" transform="translate(43.58 119.293)" fill="#fff" stroke="#fff" stroke-width="1" font-size="10" font-family="Cosmetic-Thin, Cosmetic" font-weight="200" letter-spacing="0.68em"><tspan x="0" y="0">INTERIORS</tspan></text>
+    <text id="ZAIN" transform="translate(43.4 99)" fill="#fff" stroke="#fff" strokeWidth="1" fontSize="48" fontFamily="Cosmetic-Thin, Cosmetic" fontWeight="200"><tspan x="0" y="0">ZAIN</tspan></text>
+    <text id="INTERIORS" transform="translate(43.58 119.293)" fill="#fff" stroke="#fff" strokeWidth="1" fontSize="10" fontFamily="Cosmetic-Thin, Cosmetic" fontWeight="200" letterSpacing="0.68em"><tspan x="0" y="0">INTERIORS</tspan></text>
   </g>
 </svg>
-        <p class=" logo_bottom_p text-start d-none d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting
+        <p className=" logo_bottom_p text-start d-none d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.</p>
       </div>
       <hr className='d-md-none bg-white'></hr>
-      <div class="col-lg-5  d-none d-md-block">
+      <div className="col-lg-5  d-none d-md-block">
       </div>
-      <div class="col-lg-2 col-6 pt-lg-4 text-start footer_menu">
-        <h4 class="text_footer">
+      <div className="col-lg-2 col-6 pt-lg-4 text-start footer_menu">
+        <h4 className="text_footer">
           Products
         </h4>
         <ul>
@@ -44,8 +44,8 @@ import { Container } from 'react-bootstrap';
       </div>  
       <hr className='d-md-none bg-white'></hr>  
     </div>
-    <div class="col-lg-12 p-2 w-lg-50 mx-lg-auto" >
-        <p class="text_footer contant_style">Copyright © 2022 Inoterior Demo2 Theme. All rights reserved <br/> Terms & Condition Privacy Policy Sitemap</p>
+    <div className="col-lg-12 p-2 w-lg-50 mx-lg-auto" >
+        <p className="text_footer contant_style">Copyright © 2022 Inoterior Demo2 Theme. All rights reserved <br/> Terms & Condition Privacy Policy Sitemap</p>
       </div>
 
 
